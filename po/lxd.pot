@@ -7,7 +7,7 @@
 msgid   ""
 msgstr  "Project-Id-Version: PACKAGE VERSION\n"
         "Report-Msgid-Bugs-To: \n"
-        "POT-Creation-Date: 2015-05-12 17:42-0400\n"
+        "POT-Creation-Date: 2015-05-12 15:15+0000\n"
         "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
         "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
         "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,7 +83,7 @@ msgstr  ""
 msgid   "(Bad alias entry: %s\n"
 msgstr  ""
 
-#: lxc/remote.go:124
+#: lxc/remote.go:129
 #, c-format
 msgid   "Admin password for %s: "
 msgstr  ""
@@ -101,12 +101,12 @@ msgstr  ""
 msgid   "Architecture: %s\n"
 msgstr  ""
 
-#: client.go:660
+#: client.go:682
 #, c-format
 msgid   "Bad image property: %s\n"
 msgstr  ""
 
-#: client.go:1353
+#: client.go:1375
 msgid   "Cannot change profile name"
 msgstr  ""
 
@@ -114,7 +114,7 @@ msgstr  ""
 msgid   "Cannot provide container name to list"
 msgstr  ""
 
-#: client.go:780
+#: client.go:802
 #, c-format
 msgid   "Certificate fingerprint: % x\n"
 msgstr  ""
@@ -126,7 +126,7 @@ msgid   "Changes a containers state to %s.\n"
         "lxd %s <name>\n"
 msgstr  ""
 
-#: lxc/remote.go:145
+#: lxc/remote.go:152
 msgid   "Client certificate stored at server: "
 msgstr  ""
 
@@ -140,7 +140,7 @@ msgid   "Copy containers within or in between lxd instances.\n"
         "lxc copy <source container> <destination container>\n"
 msgstr  ""
 
-#: client.go:795
+#: client.go:817
 msgid   "Could not create server cert dir"
 msgstr  ""
 
@@ -158,12 +158,12 @@ msgid   "Delete a container or container snapshot.\n"
         "snapshots, ...).\n"
 msgstr  ""
 
-#: lxc/config.go:366
+#: lxc/config.go:379
 #, c-format
 msgid   "Device %s added to %s\n"
 msgstr  ""
 
-#: lxc/config.go:394
+#: lxc/config.go:407
 #, c-format
 msgid   "Device %s removed from %s\n"
 msgstr  ""
@@ -180,7 +180,7 @@ msgstr  ""
 msgid   "Ephemeral container"
 msgstr  ""
 
-#: client.go:541 client.go:551 client.go:693
+#: client.go:563 client.go:573 client.go:715
 #, c-format
 msgid   "Error adding alias %s\n"
 msgstr  ""
@@ -248,7 +248,7 @@ msgid   "List information on containers.\n"
         "lxc info [<remote>:]container [--show-log]\n"
 msgstr  ""
 
-#: lxc/list.go:22
+#: lxc/list.go:23
 msgid   "Lists the available resources.\n"
         "\n"
         "lxc list [resource] [filters]\n"
@@ -330,16 +330,22 @@ msgid   "Manage profiles.\n"
         "container\n"
 msgstr  ""
 
-#: lxc/remote.go:25
+#: lxc/remote.go:27
 msgid   "Manage remote LXD servers.\n"
         "\n"
-        "lxc remote add <name> <url>        Add the remote <name> at <url>.\n"
-        "lxc remote remove <name>           Remove the remote <name>.\n"
-        "lxc remote list                    List all remotes.\n"
-        "lxc remote rename <old> <new>      Rename remote <old> to <new>.\n"
-        "lxc remote set-url <name> <url>    Update <name>'s url to <url>.\n"
-        "lxc remote set-default <name>      Set the default remote.\n"
-        "lxc remote get-default             Print the default remote.\n"
+        "lxc remote add <name> <url> [--password=PASSWORD]  Add the remote "
+        "<name> at <url>.\n"
+        "lxc remote remove <name>           \t   \t    Remove the remote "
+        "<name>.\n"
+        "lxc remote list                    \t   \t    List all remotes.\n"
+        "lxc remote rename <old> <new>      \t   \t    Rename remote <old> to "
+        "<new>.\n"
+        "lxc remote set-url <name> <url>    \t   \t    Update <name>'s url to "
+        "<url>.\n"
+        "lxc remote set-default <name>      \t   \t    Set the default "
+        "remote.\n"
+        "lxc remote get-default             \t   \t    Print the default "
+        "remote.\n"
 msgstr  ""
 
 #: lxc/help.go:75
@@ -360,7 +366,7 @@ msgstr  ""
 msgid   "No cert provided to add"
 msgstr  ""
 
-#: client.go:768
+#: client.go:790
 msgid   "No certificate on this connection"
 msgstr  ""
 
@@ -404,7 +410,11 @@ msgstr  ""
 msgid   "Public: %s\n"
 msgstr  ""
 
-#: client.go:787
+#: lxc/remote.go:39
+msgid   "Remote admin password"
+msgstr  ""
+
+#: client.go:809
 msgid   "Server certificate NACKed by user"
 msgstr  ""
 
@@ -414,7 +424,7 @@ msgid   "Server certificate for host %s has changed. Add correct certificate "
         "or remove certificate in %s"
 msgstr  ""
 
-#: lxc/remote.go:142
+#: lxc/remote.go:149
 msgid   "Server doesn't trust us after adding our cert"
 msgstr  ""
 
@@ -434,11 +444,11 @@ msgstr  ""
 msgid   "Show all commands (not just interesting ones)"
 msgstr  ""
 
-#: lxc/config.go:208
+#: lxc/config.go:221
 msgid   "Show for remotes is not yet supported\n"
 msgstr  ""
 
-#: lxc/config.go:204
+#: lxc/config.go:217
 msgid   "Show for server is not yet supported\n"
 msgstr  ""
 
@@ -467,12 +477,12 @@ msgstr  ""
 msgid   "Unknown image command %s"
 msgstr  ""
 
-#: lxc/remote.go:251
+#: lxc/remote.go:258
 #, c-format
 msgid   "Unknown remote subcommand %s"
 msgstr  ""
 
-#: lxc/config.go:199
+#: lxc/config.go:212
 #, c-format
 msgid   "Unkonwn config trust command %s"
 msgstr  ""
@@ -494,7 +504,7 @@ msgstr  ""
 msgid   "Whether or not to snapshot the container's running state"
 msgstr  ""
 
-#: lxc/config.go:322 lxc/profile.go:167
+#: lxc/config.go:335 lxc/profile.go:167
 msgid   "YAML parse error %v\n"
 msgstr  ""
 
@@ -502,7 +512,7 @@ msgstr  ""
 msgid   "api version mismatch: mine: %q, daemon: %q"
 msgstr  ""
 
-#: client.go:1244 client.go:1251
+#: client.go:502 client.go:1266 client.go:1273
 #, c-format
 msgid   "bad container url %s"
 msgstr  ""
@@ -511,7 +521,7 @@ msgstr  ""
 msgid   "bad number of things scanned from image, container or snapshot"
 msgstr  ""
 
-#: client.go:1384
+#: client.go:1406
 #, c-format
 msgid   "bad profile url %s"
 msgstr  ""
@@ -520,11 +530,11 @@ msgstr  ""
 msgid   "bad result type from action"
 msgstr  ""
 
-#: client.go:1255
+#: client.go:506 client.go:1277
 msgid   "bad version in container url"
 msgstr  ""
 
-#: client.go:1388
+#: client.go:1410
 msgid   "bad version in profile url"
 msgstr  ""
 
@@ -563,7 +573,7 @@ msgstr  ""
 msgid   "expected error, got %s"
 msgstr  ""
 
-#: client.go:1055
+#: client.go:1077
 #, c-format
 msgid   "got bad op status %s"
 msgstr  ""
@@ -582,7 +592,7 @@ msgstr  ""
 msgid   "invalid argument %s"
 msgstr  ""
 
-#: client.go:1190
+#: client.go:1212
 #, c-format
 msgid   "invalid wait url %s"
 msgstr  ""
@@ -640,7 +650,7 @@ msgstr  ""
 msgid   "no response!"
 msgstr  ""
 
-#: client.go:1430 client.go:1484
+#: client.go:1452 client.go:1506
 msgid   "no value found in %q\n"
 msgstr  ""
 
@@ -652,21 +662,21 @@ msgstr  ""
 msgid   "not all the profiles from the source exist on the target"
 msgstr  ""
 
-#: client.go:781
+#: client.go:803
 msgid   "ok (y/n)? "
 msgstr  ""
 
-#: lxc/remote.go:213
+#: lxc/remote.go:220
 #, c-format
 msgid   "remote %s already exists"
 msgstr  ""
 
-#: lxc/remote.go:183 lxc/remote.go:209 lxc/remote.go:229 lxc/remote.go:240
+#: lxc/remote.go:190 lxc/remote.go:216 lxc/remote.go:236 lxc/remote.go:247
 #, c-format
 msgid   "remote %s doesn't exist"
 msgstr  ""
 
-#: lxc/remote.go:168
+#: lxc/remote.go:175
 #, c-format
 msgid   "remote %s exists as <%s>"
 msgstr  ""
